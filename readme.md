@@ -9,8 +9,8 @@ This project implements a mobile web page for listing interior designers, with s
 ## Local Deployment
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
-   cd <repo-name>
+   git clone https://github.com/ShivaKrishnaReddyBurra/EmptyCup.git
+   cd EmptyCup
    ```
 2. Build and run the containers:
    ```bash
