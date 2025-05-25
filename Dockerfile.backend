@@ -3,5 +3,6 @@ WORKDIR /app
 COPY app.py .
 COPY requirements.txt .
 RUN pip install -r requirements.txt
+RUN mkdir -p /app/data && chmod -R 777 /app/data
 EXPOSE 5000
 CMD ["python", "app.py"]

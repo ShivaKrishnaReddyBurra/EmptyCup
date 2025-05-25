@@ -3,12 +3,12 @@ from flask_cors import CORS
 import sqlite3
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/api/*": {"origins": "https://emptycup-app.azurewebsites.net"}})
 
 def init_db():
-    conn = sqlite3.connect('designers.db')
+    conn = sqlite3.connect('/data/designers.db')
     cursor = conn.cursor()
-    cursor.execute('''  
+    cursor.execute('''
         CREATE TABLE IF NOT EXISTS designers (
             id TEXT PRIMARY KEY,
             name TEXT,
@@ -47,7 +47,7 @@ def init_db():
 @app.route('/api/designers', methods=['GET'])
 def get_designers():
     try:
-        conn = sqlite3.connect('designers.db')
+        conn = sqlite3.connect('/data/designers.db')
         cursor = conn.cursor()
         cursor.execute('SELECT * FROM designers')
         rows = cursor.fetchall()

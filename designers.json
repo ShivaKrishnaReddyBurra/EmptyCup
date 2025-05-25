@@ -21,5 +21,117 @@
       "priceLevel": "$$$",
       "phone1": "+91 - 984532853",
       "phone2": "+91 - 984532854"
+    },
+    {
+      "id": "3",
+      "name": "Design Hub",
+      "rating": 4.0,
+      "description": "A creative team of 5 designers based in Mumbai, specializing in modern design trends.",
+      "projects": 65,
+      "years": 5,
+      "priceLevel": "$$",
+      "phone1": "+91 - 987654321",
+      "phone2": "+91 - 987654322",
+      "backgroundColor": "#F0F8FF"
+    },
+    {
+      "id": "4",
+      "name": "Creative Minds",
+      "rating": 4.8,
+      "description": "Award-winning design studio with a focus on innovative solutions and user experience.",
+      "projects": 120,
+      "years": 10,
+      "priceLevel": "$$$$",
+      "phone1": "+91 - 998877665",
+      "phone2": "+91 - 998877666"
+    },
+    {
+      "id": "5",
+      "name": "Pixel Perfect",
+      "rating": 4.2,
+      "description": "A team of experienced designers dedicated to delivering high-quality design solutions.",
+      "projects": 80,
+      "years": 7,
+      "priceLevel": "$$",
+      "phone1": "+91 - 123456789",
+      "phone2": "+91 - 123456780",
+      "backgroundColor": "#FFF5E1"
+    },
+    {
+      "id": "6",
+      "name": "Design Innovators",
+      "rating": 4.6,
+      "description": "Leading design agency known for its cutting-edge designs and exceptional client service.",
+      "projects": 95,
+      "years": 9,
+      "priceLevel": "$$$$",
+      "phone1": "+91 - 112233445",
+      "phone2": "+91 - 112233446"
+    },
+    {
+      "id": "7",
+      "name": "Artistry Studio",
+      "rating": 4.1,
+      "description": "Creative studio with a passion for art and design, delivering unique and personalized solutions.",
+      "projects": 50,
+      "years": 4,
+      "priceLevel": "$$",
+      "phone1": "+91 - 223344556",
+      "phone2": "+91 - 223344557"
+    },
+    {
+      "id": "8",
+      "name": "Visionary Designs",
+      "rating": 4.9,
+      "description": "Top-rated design firm with a focus on visionary concepts and exceptional execution.",
+      "projects": 150,
+      "years": 12,
+      "priceLevel": "$$$$",
+      "phone1": "+91 - 334455667",
+      "phone2": "+91 - 334455668"
+    },
+    {
+      "id": "9",
+      "name": "Modern Aesthetics",
+      "rating": 4.3,
+      "description": "Design agency specializing in modern aesthetics and user-centered design.",
+      "projects": 70,
+      "years": 6,
+      "priceLevel": "$$",
+      "phone1": "+91 - 445566778",
+      "phone2": "+91 - 445566779"
+    },
+    {
+      "id": "10",
+      "name": "Innovative Creations",
+      "rating": 4.7,
+      "description": "Creative agency known for its innovative approach and exceptional design quality.",
+      "projects": 110,
+      "years": 11,
+      "priceLevel": "$$$$",
+      "phone1": "+91 - 556677889",
+      "phone2": "+91 - 556677880"
+    },
+    {
+      "id": "11",
+      "name": "Design Excellence",
+      "rating": 4.4,
+      "description": "Renowned design studio with a commitment to excellence and client satisfaction.",
+      "projects": 90,
+      "years": 8,
+      "priceLevel": "$$$",
+      "phone1": "+91 - 667788990",
+      "phone2": "+91 - 667788991"
+    },
+    {
+      "id": "12",
+      "name": "Creative Solutions",
+      "rating": 4.0,
+      "description": "Dynamic design team focused on delivering creative solutions for diverse clients.",
+      "projects": 55,
+      "years": 5,
+      "priceLevel": "$$",
+      "phone1": "+91 - 778899001",
+      "phone2": "+91 - 778899002"
     }
   ]
