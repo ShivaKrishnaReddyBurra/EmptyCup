@@ -4,7 +4,10 @@ document.addEventListener('DOMContentLoaded', () => {
   let designers = [];
   let shortlistedIds = new Set(JSON.parse(localStorage.getItem('shortlistedIds') || '[]'));
 
-  // Fetch designers from API
+  /**
+   * @function fetchDesigners
+   * @description Fetches designers from the API or falls back to static JSON if the API is unavailable.
+   */
   async function fetchDesigners() {
     try {
       const response = await fetch('http://localhost:5000/api/designers');
@@ -24,7 +27,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Render stars for rating
+  /**
+   * @function renderStars
+   * @param {Number} rating 
+   * @description Renders stars based on the rating value.
+   * @returns {String} HTML string of stars
+   */
   function renderStars(rating) {
     let stars = '';
     const fullStars = Math.floor(rating);
@@ -50,7 +58,12 @@ document.addEventListener('DOMContentLoaded', () => {
     return stars;
   }
 
-  // Render designers list
+  /**
+   * @function renderDesigners
+   * @description This function generates the HTML for each designer card, applying styles based on whether the designer is shortlisted.
+   * It also handles the display of stars, stats, and contact information.
+   * It checks if the shortlist filter is active and filters the designers accordingly.
+   */
   function renderDesigners() {
     const filteredDesigners = shortlistFilter.classList.contains('active')
       ? designers.filter(designer => shortlistedIds.has(designer.id))
@@ -167,6 +180,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
   });
 
-  // Initial fetch
   fetchDesigners();
 });
